@@ -89,10 +89,12 @@ public class SocketDemoActivity extends AppCompatActivity {
                 while (socket == null) {
                     try {
                         socket = new Socket("localhost", 8888);
-                        mClientSocket = socket;
-                        mPrintWriter = new PrintWriter(new BufferedWriter(new OutputStreamWriter(socket.getOutputStream())), true);
-                        mHandler.sendEmptyMessage(MESSAGE_SOCKET_CONNECTED);
-                        System.out.println("****************connect to tcp server success");
+                        if (socket.isConnected()) {
+                            mClientSocket = socket;
+                            mPrintWriter = new PrintWriter(new BufferedWriter(new OutputStreamWriter(socket.getOutputStream())), true);
+                            mHandler.sendEmptyMessage(MESSAGE_SOCKET_CONNECTED);
+                            System.out.println("****************connect to tcp server success");
+                        }
                     } catch (Exception e) {
                         e.printStackTrace();
                         SystemClock.sleep(1000);
