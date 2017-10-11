@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/res/menu/activity_main_drawer.xml"
+    }
+]

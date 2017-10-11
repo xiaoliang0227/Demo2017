@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_test.xml",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_test.xml"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/Users/zhaoyongliang/.android/build-cache/a470ac5bd5ab32a737c80a7fe907d58a5da08ded/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_menu_slideshow.xml",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_fingerprint_black_24dp.xml",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_fingerprint_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_menu_gallery.xml",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_menu_manage.xml",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_manage.xml"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_hand.xml",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_hand.xml"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_menu_share.xml",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_share.xml"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_menu_camera.xml",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_camera.xml"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_test2.xml",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_test2.xml"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/Users/zhaoyongliang/.android/build-cache/a470ac5bd5ab32a737c80a7fe907d58a5da08ded/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_menu_send.xml",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_menu_send.xml"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/zhaoyongliang/.android/build-cache/a0e059e6bffd03b638b7fabf2d1f5cf98d87bba9/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/zhaoyongliang/.android/build-cache/a0e059e6bffd03b638b7fabf2d1f5cf98d87bba9/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]

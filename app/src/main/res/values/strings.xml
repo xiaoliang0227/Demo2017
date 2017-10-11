@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Demo2017</string>
+    <string name="drawer_open">抽屉打开</string>
+    <string name="drawer_close">抽屉关闭</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="planets_array">
+        <item>语文</item>
+        <item>数学</item>
+        <item>英语</item>
+        <item>自然</item>
+        <item>化学</item>
+        <item>物理</item>
+    </string-array>
+</resources>

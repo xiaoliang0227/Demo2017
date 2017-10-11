@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/zhaoyongliang/.android/build-cache/a470ac5bd5ab32a737c80a7fe907d58a5da08ded/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/zhaoyongliang/.android/build-cache/a470ac5bd5ab32a737c80a7fe907d58a5da08ded/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    }
+]

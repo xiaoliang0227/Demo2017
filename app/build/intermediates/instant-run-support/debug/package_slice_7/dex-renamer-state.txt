@@ -1,0 +1,4 @@
+#Wed Oct 11 15:08:57 CST 2017
+base.0=/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
+renamed.0=classes.dex
+file.0=/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex

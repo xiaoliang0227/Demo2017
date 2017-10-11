@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_menu_camera.png",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_menu_camera.png"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_test.png",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_test.png"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_hand.png",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_hand.png"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_test2.png",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_test2.png"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_menu_gallery.png",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_menu_gallery.png"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_menu_slideshow.png",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_menu_slideshow.png"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_fingerprint_black_24dp.png",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_fingerprint_black_24dp.png"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_menu_manage.png",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_menu_manage.png"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_menu_send.png",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_menu_send.png"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_menu_share.png",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_menu_share.png"
+    }
+]
