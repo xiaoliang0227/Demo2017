@@ -55,6 +55,12 @@
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait" />
 
+        <activity
+            android:name=".TriangleViewTestActivity"
+            android:label="TriangleViewTest"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+
         <!-- service -->
         <service android:name=".service.socket.TCPServerService" />
     </application>

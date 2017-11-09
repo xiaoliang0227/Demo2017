@@ -62,6 +62,11 @@
             android:label="网络加载图片"
             android:parentActivityName="com.demo.zyl.demo2017.MainActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name="com.demo.zyl.demo2017.TriangleViewTestActivity"
+            android:label="TriangleViewTest"
+            android:parentActivityName="com.demo.zyl.demo2017.MainActivity"
+            android:screenOrientation="portrait" />
 
         <!-- service -->
         <service android:name="com.demo.zyl.demo2017.service.socket.TCPServerService" />

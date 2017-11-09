@@ -1,11 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-62:12
-INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-62:12
-INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-62:12
-INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-62:12
+ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-68:12
 MERGED from [com.android.support:design:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/3e07c3adba10eae87bf004eaf8bda81d/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/fc206a977603829b13321f6a8877e32e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.github.xiaoliang0227:TriangleView:1.0.2] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/TriangleView-1.0.2.aar/c7b4f2a282d96debf0e15ab65a8407a4/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/982148f52c1ae1a66f0e35ea80a749c6/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/7f4f1e4716d2b643e6229fdac1049c38/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/d5a42e81ec55c6d2e7dd150de4b5af0a/AndroidManifest.xml:17:1-28:12
@@ -17,22 +18,22 @@ MERGED from [com.android.support:support-media-compat:25.3.1] /Users/zhaoyonglia
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/0214771eb8f3411c9ca7ffd2e6e67530/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/40f0cdedc786d23dca98845365e796a8/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/9babd9f39d5434a330472959f2d13a56/AndroidManifest.xml:17:1-31:12
-INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-62:12
-INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-62:12
-INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-68:12
 	package
 		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:4:5-36
 		INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-62:12
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-68:12
 		INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-62:12
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-68:12
 		INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:11-69
@@ -53,7 +54,7 @@ ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/Androi
 	android:name
 		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:9:22-78
 application
-ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:11:5-60:19
+ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:11:5-66:19
 MERGED from [com.android.support:design:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/3e07c3adba10eae87bf004eaf8bda81d/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:design:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/3e07c3adba10eae87bf004eaf8bda81d/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/fc206a977603829b13321f6a8877e32e/AndroidManifest.xml:29:5-20
@@ -164,10 +165,20 @@ ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/Androi
 		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:54:13-35
 	android:name
 		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:53:13-46
-service#com.demo.zyl.demo2017.service.socket.TCPServerService
-ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:59:9-68
+activity#com.demo.zyl.demo2017.TriangleViewTestActivity
+ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:58:9-62:52
+	android:screenOrientation
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:62:13-49
+	android:parentActivityName
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:61:13-55
+	android:label
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:60:13-45
 	android:name
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:59:18-65
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:59:13-53
+service#com.demo.zyl.demo2017.service.socket.TCPServerService
+ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:65:9-68
+	android:name
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:65:18-65
 uses-sdk
 INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
@@ -176,6 +187,8 @@ MERGED from [com.android.support:design:25.3.1] /Users/zhaoyongliang/.gradle/cac
 MERGED from [com.android.support:design:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/3e07c3adba10eae87bf004eaf8bda81d/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/fc206a977603829b13321f6a8877e32e/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/fc206a977603829b13321f6a8877e32e/AndroidManifest.xml:21:5-23:78
+MERGED from [com.github.xiaoliang0227:TriangleView:1.0.2] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/TriangleView-1.0.2.aar/c7b4f2a282d96debf0e15ab65a8407a4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.xiaoliang0227:TriangleView:1.0.2] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/TriangleView-1.0.2.aar/c7b4f2a282d96debf0e15ab65a8407a4/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/982148f52c1ae1a66f0e35ea80a749c6/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/982148f52c1ae1a66f0e35ea80a749c6/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/7f4f1e4716d2b643e6229fdac1049c38/AndroidManifest.xml:20:5-44

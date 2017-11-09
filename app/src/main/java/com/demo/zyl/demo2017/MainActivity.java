@@ -1,44 +1,16 @@
 package com.demo.zyl.demo2017;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-
-    private Button btn1, btn2, btn3, btn4, btnDemoSocket,btnImageDemo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        init();
-    }
-
-    private void init() {
-        initView();
-        initEvent();
-    }
-
-    private void initView() {
-        btn1 = (Button) findViewById(R.id.btn_1);
-        btn2 = (Button) findViewById(R.id.btn_2);
-        btn3 = (Button) findViewById(R.id.btn_3);
-        btn4 = (Button) findViewById(R.id.btn_4);
-        btnDemoSocket = (Button) findViewById(R.id.btn_demo_socket);
-        btnImageDemo = (Button) findViewById(R.id.btn_image_demo);
-    }
-
-    private void initEvent() {
-        btn1.setOnClickListener(this);
-        btn2.setOnClickListener(this);
-        btn3.setOnClickListener(this);
-        btn4.setOnClickListener(this);
-        btnDemoSocket.setOnClickListener(this);
-        btnImageDemo.setOnClickListener(this);
     }
 
     @Override
@@ -73,6 +45,39 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void pageJump(String type) {
         Intent intent = new Intent(this, CollectionDemoActivity.class);
         intent.putExtra("type", type);
+        startActivity(intent);
+    }
+
+    public void btn1Clicked(View view) {
+        pageJump("tabStrip");
+    }
+
+    public void btn2Clicked(View view) {
+        pageJump("titleStrip");
+    }
+
+    public void btn3Clicked(View view) {
+        Intent intent = new Intent(this, DrawerLayoutDemoActivity.class);
+        startActivity(intent);
+    }
+
+    public void btn4Clicked(View view) {
+        Intent intent = new Intent(this, DrawerLayoutDemoActivity2.class);
+        startActivity(intent);
+    }
+
+    public void socketDemoClicked(View view) {
+        Intent intent = new Intent(this, SocketDemoActivity.class);
+        startActivity(intent);
+    }
+
+    public void imageDemoClicked(View view) {
+        Intent intent = new Intent(this, ImageLoadActivity.class);
+        startActivity(intent);
+    }
+
+    public void triangleViewTestClicked(View view) {
+        Intent intent = new Intent(this, TriangleViewTestActivity.class);
         startActivity(intent);
     }
 }
