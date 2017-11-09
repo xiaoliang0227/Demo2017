@@ -1,137 +1,240 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-44:12
+ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-62:12
+MERGED from [com.android.support:design:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/3e07c3adba10eae87bf004eaf8bda81d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/fc206a977603829b13321f6a8877e32e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/982148f52c1ae1a66f0e35ea80a749c6/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/7f4f1e4716d2b643e6229fdac1049c38/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/d5a42e81ec55c6d2e7dd150de4b5af0a/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/043d56e506d9acd8a5e1a35a18b1936d/AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:transition:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/011540bf68c987fdd1c72a160a8b3bb0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/4875f0bb91b7bc97e2f21ee762359293/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8e86541751ff8346c42a7bd1b4157d8d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/71c3bac6f6af6c60fd777d8149837959/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/0214771eb8f3411c9ca7ffd2e6e67530/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/40f0cdedc786d23dca98845365e796a8/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/9babd9f39d5434a330472959f2d13a56/AndroidManifest.xml:17:1-31:12
+INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-62:12
 	package
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:3:5-36
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:4:5-36
 		INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-62:12
+		INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:1-62:12
 		INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:2:11-69
-	android:versionCode
-		INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:6:5-79
+ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:6:22-76
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:9:22-78
 application
-ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:8:5-42:19
-MERGED from [com.android.support:design:25.3.1] /Users/zhaoyongliang/.android/build-cache/a470ac5bd5ab32a737c80a7fe907d58a5da08ded/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/zhaoyongliang/.android/build-cache/a0e059e6bffd03b638b7fabf2d1f5cf98d87bba9/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/zhaoyongliang/.android/build-cache/bb592e281163ac782ec95d64999b1f9b2ea12a4a/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/zhaoyongliang/.android/build-cache/57dc548cc4e94fed9073197a344264b20d3a58b9/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] /Users/zhaoyongliang/.android/build-cache/8b1b7a9edad27d58d36409902a81e5ce72c28006/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /Users/zhaoyongliang/.android/build-cache/698396beed4100cce082e6d023b6f5eb2e3a6fa4/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/zhaoyongliang/.android/build-cache/437b9874953517d0e8c99d700647c0daeb2b3950/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/zhaoyongliang/.android/build-cache/f651a143bc6f9c65cb2cf106de6b1ae80b05f7b8/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/zhaoyongliang/.android/build-cache/e5753ce30f51e9f4c922f2d1fcaa55754f16f780/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/zhaoyongliang/.android/build-cache/18a934fdcae0bb3a03bb2a08087c755cb856adf8/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/zhaoyongliang/.android/build-cache/06b42be544de5d38eb67dfdadd58e5d2ad4b02d6/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/zhaoyongliang/.android/build-cache/835b8c22b2e089c052d6e7f6f814b6ab159cefef/output/AndroidManifest.xml:9:5-20
-	android:label
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:11:9-41
+ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:11:5-60:19
+MERGED from [com.android.support:design:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/3e07c3adba10eae87bf004eaf8bda81d/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/3e07c3adba10eae87bf004eaf8bda81d/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/fc206a977603829b13321f6a8877e32e/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/fc206a977603829b13321f6a8877e32e/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/982148f52c1ae1a66f0e35ea80a749c6/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/982148f52c1ae1a66f0e35ea80a749c6/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/7f4f1e4716d2b643e6229fdac1049c38/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/7f4f1e4716d2b643e6229fdac1049c38/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/d5a42e81ec55c6d2e7dd150de4b5af0a/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/d5a42e81ec55c6d2e7dd150de4b5af0a/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/011540bf68c987fdd1c72a160a8b3bb0/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/011540bf68c987fdd1c72a160a8b3bb0/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/4875f0bb91b7bc97e2f21ee762359293/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/4875f0bb91b7bc97e2f21ee762359293/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8e86541751ff8346c42a7bd1b4157d8d/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8e86541751ff8346c42a7bd1b4157d8d/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/71c3bac6f6af6c60fd777d8149837959/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/71c3bac6f6af6c60fd777d8149837959/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/0214771eb8f3411c9ca7ffd2e6e67530/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/0214771eb8f3411c9ca7ffd2e6e67530/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/40f0cdedc786d23dca98845365e796a8/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/40f0cdedc786d23dca98845365e796a8/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/9babd9f39d5434a330472959f2d13a56/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/9babd9f39d5434a330472959f2d13a56/AndroidManifest.xml:29:5-20
 	android:supportsRtl
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:15:9-41
+	android:debuggable
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:13:9-34
+	tools:ignore
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:19:9-42
 	android:roundIcon
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:12:9-45
-	android:allowBackup
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:16:9-45
 	android:icon
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:10:9-40
-	android:theme
 		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:14:9-40
+	android:allowBackup
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:18:9-40
 activity#com.demo.zyl.demo2017.MainActivity
-ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:15:9-23:20
+ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:20:9-28:20
 	android:screenOrientation
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:17:13-49
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:22:13-49
 	android:name
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:16:13-41
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:21:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:18:13-22:29
+ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:19:17-69
+ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:21:17-77
+ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:26:27-74
 activity#com.demo.zyl.demo2017.CollectionDemoActivity
-ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:24:9-26:52
-	android:screenOrientation
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:26:13-49
-	android:name
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:25:13-51
-activity#com.demo.zyl.demo2017.DrawerLayoutDemoActivity
-ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:28:9-30:52
-	android:screenOrientation
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:30:13-49
-	android:name
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:29:13-53
-activity#com.demo.zyl.demo2017.DrawerLayoutDemoActivity2
-ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:31:9-34:59
+ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:29:9-33:52
 	android:screenOrientation
 		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:33:13-49
-	android:theme
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:34:13-56
+	android:parentActivityName
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:32:13-55
+	android:label
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:31:13-39
 	android:name
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:32:13-54
-activity#com.demo.zyl.demo2017.SocketDemoActivity
-ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:35:9-38:57
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:30:13-51
+activity#com.demo.zyl.demo2017.DrawerLayoutDemoActivity
+ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:35:9-39:52
 	android:screenOrientation
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:37:13-49
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:39:13-49
+	android:parentActivityName
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:38:13-55
+	android:label
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:37:13-35
+	android:name
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:36:13-53
+activity#com.demo.zyl.demo2017.DrawerLayoutDemoActivity2
+ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:40:9-45:59
+	android:screenOrientation
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:44:13-49
+	android:parentActivityName
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:43:13-55
+	android:label
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:42:13-36
+	android:theme
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:45:13-56
+	android:name
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:41:13-54
+activity#com.demo.zyl.demo2017.SocketDemoActivity
+ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:46:9-51:57
+	android:screenOrientation
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:50:13-49
+	android:parentActivityName
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:49:13-55
+	android:label
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:48:13-40
 	android:windowSoftInputMode
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:38:13-54
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:51:13-54
 	android:name
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:36:13-47
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:47:13-47
+activity#com.demo.zyl.demo2017.ImageLoadActivity
+ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:52:9-56:52
+	android:screenOrientation
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:56:13-49
+	android:parentActivityName
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:55:13-55
+	android:label
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:54:13-35
+	android:name
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:53:13-46
 service#com.demo.zyl.demo2017.service.socket.TCPServerService
-ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:41:9-68
+ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:59:9-68
 	android:name
-		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:41:18-65
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml:59:18-65
 uses-sdk
 INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:25.3.1] /Users/zhaoyongliang/.android/build-cache/a470ac5bd5ab32a737c80a7fe907d58a5da08ded/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/zhaoyongliang/.android/build-cache/a0e059e6bffd03b638b7fabf2d1f5cf98d87bba9/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/zhaoyongliang/.android/build-cache/bb592e281163ac782ec95d64999b1f9b2ea12a4a/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/zhaoyongliang/.android/build-cache/57dc548cc4e94fed9073197a344264b20d3a58b9/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/zhaoyongliang/.android/build-cache/cb9c61605d4968cb54cbbf3d51ceb74dd41a3910/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] /Users/zhaoyongliang/.android/build-cache/8b1b7a9edad27d58d36409902a81e5ce72c28006/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.3.1] /Users/zhaoyongliang/.android/build-cache/698396beed4100cce082e6d023b6f5eb2e3a6fa4/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/zhaoyongliang/.android/build-cache/437b9874953517d0e8c99d700647c0daeb2b3950/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/zhaoyongliang/.android/build-cache/f651a143bc6f9c65cb2cf106de6b1ae80b05f7b8/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/zhaoyongliang/.android/build-cache/e5753ce30f51e9f4c922f2d1fcaa55754f16f780/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/zhaoyongliang/.android/build-cache/18a934fdcae0bb3a03bb2a08087c755cb856adf8/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] /Users/zhaoyongliang/.android/build-cache/06b42be544de5d38eb67dfdadd58e5d2ad4b02d6/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/zhaoyongliang/.android/build-cache/835b8c22b2e089c052d6e7f6f814b6ab159cefef/output/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
+INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/3e07c3adba10eae87bf004eaf8bda81d/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/3e07c3adba10eae87bf004eaf8bda81d/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/fc206a977603829b13321f6a8877e32e/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/fc206a977603829b13321f6a8877e32e/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/982148f52c1ae1a66f0e35ea80a749c6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/982148f52c1ae1a66f0e35ea80a749c6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/7f4f1e4716d2b643e6229fdac1049c38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/7f4f1e4716d2b643e6229fdac1049c38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/d5a42e81ec55c6d2e7dd150de4b5af0a/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/d5a42e81ec55c6d2e7dd150de4b5af0a/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/043d56e506d9acd8a5e1a35a18b1936d/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/043d56e506d9acd8a5e1a35a18b1936d/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/011540bf68c987fdd1c72a160a8b3bb0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/011540bf68c987fdd1c72a160a8b3bb0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/4875f0bb91b7bc97e2f21ee762359293/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/4875f0bb91b7bc97e2f21ee762359293/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8e86541751ff8346c42a7bd1b4157d8d/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8e86541751ff8346c42a7bd1b4157d8d/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/71c3bac6f6af6c60fd777d8149837959/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/71c3bac6f6af6c60fd777d8149837959/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/0214771eb8f3411c9ca7ffd2e6e67530/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/0214771eb8f3411c9ca7ffd2e6e67530/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/40f0cdedc786d23dca98845365e796a8/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/40f0cdedc786d23dca98845365e796a8/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/9babd9f39d5434a330472959f2d13a56/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/9babd9f39d5434a330472959f2d13a56/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
+INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] /Users/zhaoyongliang/.android/build-cache/a470ac5bd5ab32a737c80a7fe907d58a5da08ded/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/3e07c3adba10eae87bf004eaf8bda81d/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
+		ADDED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] /Users/zhaoyongliang/.android/build-cache/a470ac5bd5ab32a737c80a7fe907d58a5da08ded/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/zhaoyongliang/.android/build-cache/a0e059e6bffd03b638b7fabf2d1f5cf98d87bba9/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/zhaoyongliang/.android/build-cache/bb592e281163ac782ec95d64999b1f9b2ea12a4a/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/zhaoyongliang/.android/build-cache/57dc548cc4e94fed9073197a344264b20d3a58b9/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/zhaoyongliang/.android/build-cache/cb9c61605d4968cb54cbbf3d51ceb74dd41a3910/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] /Users/zhaoyongliang/.android/build-cache/8b1b7a9edad27d58d36409902a81e5ce72c28006/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] /Users/zhaoyongliang/.android/build-cache/698396beed4100cce082e6d023b6f5eb2e3a6fa4/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/zhaoyongliang/.android/build-cache/437b9874953517d0e8c99d700647c0daeb2b3950/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/zhaoyongliang/.android/build-cache/f651a143bc6f9c65cb2cf106de6b1ae80b05f7b8/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/zhaoyongliang/.android/build-cache/e5753ce30f51e9f4c922f2d1fcaa55754f16f780/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/zhaoyongliang/.android/build-cache/18a934fdcae0bb3a03bb2a08087c755cb856adf8/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/zhaoyongliang/.android/build-cache/06b42be544de5d38eb67dfdadd58e5d2ad4b02d6/output/AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/3e07c3adba10eae87bf004eaf8bda81d/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/fc206a977603829b13321f6a8877e32e/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/fc206a977603829b13321f6a8877e32e/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/7f4f1e4716d2b643e6229fdac1049c38/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/7f4f1e4716d2b643e6229fdac1049c38/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/d5a42e81ec55c6d2e7dd150de4b5af0a/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/d5a42e81ec55c6d2e7dd150de4b5af0a/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/043d56e506d9acd8a5e1a35a18b1936d/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/043d56e506d9acd8a5e1a35a18b1936d/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/011540bf68c987fdd1c72a160a8b3bb0/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/011540bf68c987fdd1c72a160a8b3bb0/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/4875f0bb91b7bc97e2f21ee762359293/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/4875f0bb91b7bc97e2f21ee762359293/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8e86541751ff8346c42a7bd1b4157d8d/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/8e86541751ff8346c42a7bd1b4157d8d/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/71c3bac6f6af6c60fd777d8149837959/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/71c3bac6f6af6c60fd777d8149837959/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/0214771eb8f3411c9ca7ffd2e6e67530/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/0214771eb8f3411c9ca7ffd2e6e67530/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/40f0cdedc786d23dca98845365e796a8/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/40f0cdedc786d23dca98845365e796a8/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/9babd9f39d5434a330472959f2d13a56/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/9babd9f39d5434a330472959f2d13a56/AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] /Users/zhaoyongliang/.android/build-cache/a470ac5bd5ab32a737c80a7fe907d58a5da08ded/output/AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/3e07c3adba10eae87bf004eaf8bda81d/AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] /Users/zhaoyongliang/.android/build-cache/a470ac5bd5ab32a737c80a7fe907d58a5da08ded/output/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] /Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/3e07c3adba10eae87bf004eaf8bda81d/AndroidManifest.xml:26:9-47

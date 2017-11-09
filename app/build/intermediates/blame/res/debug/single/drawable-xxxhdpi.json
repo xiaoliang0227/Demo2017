@@ -4,20 +4,20 @@
         "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_hand.png"
     },
     {
-        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_menu_manage.png",
-        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_menu_manage.png"
-    },
-    {
         "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_test2.png",
         "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_test2.png"
     },
     {
-        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_test.png",
-        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_test.png"
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_menu_manage.png",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_menu_manage.png"
     },
     {
         "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_menu_share.png",
         "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_menu_share.png"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_test.png",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_test.png"
     },
     {
         "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_menu_camera.png",

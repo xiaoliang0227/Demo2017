@@ -41,6 +41,12 @@
             android:layout_height="wrap_content"
             android:text="Socket Demo"
             android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_image_demo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="网络加载图片" />
     </LinearLayout>
 
 </ScrollView>
