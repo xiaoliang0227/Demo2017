@@ -10,56 +10,56 @@
         android:padding="10dp">
 
         <Button
-            android:id="@+id/btn_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Swipe View With Tab Strip"
             android:onClick="btn1Clicked"
+            android:text="Swipe View With Tab Strip"
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/btn_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Swipe View With Title Strip"
             android:onClick="btn2Clicked"
+            android:text="Swipe View With Title Strip"
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/btn_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="btn3Clicked"
             android:text="抽屉式导航栏" />
 
         <Button
-            android:id="@+id/btn_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="btn4Clicked"
             android:text="抽屉式导航栏2" />
 
         <Button
-            android:id="@+id/btn_demo_socket"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Socket Demo"
             android:onClick="socketDemoClicked"
+            android:text="Socket Demo"
             android:textAllCaps="false" />
 
         <Button
-            android:id="@+id/btn_image_demo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="imageDemoClicked"
             android:text="网络加载图片" />
 
         <Button
-            android:id="@+id/btn_triangle_view_test"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Triangle View Test"
             android:onClick="triangleViewTestClicked"
+            android:text="Triangle View Test"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="dynamicDialogTestClicked"
+            android:text="Dynamic Dialog Test"
             android:textAllCaps="false" />
     </LinearLayout>
 

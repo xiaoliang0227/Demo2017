@@ -36,4 +36,8 @@ dependencies {
     compile ('com.github.xiaoliang0227:TriangleView:1.0.2') {
         exclude group:'com.android.support'
     }
+    // DynamicDialog
+    compile ("com.github.xiaoliang0227:DynamicDialog:1.0.3") {
+        exclude group:'com.android.support'
+    }
 }

@@ -57,7 +57,12 @@
 
         <activity
             android:name=".TriangleViewTestActivity"
-            android:label="TriangleViewTest"
+            android:label="Triangle View Test"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DynamicDialogTestActivity"
+            android:label="Dynamic Dialog Test"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait" />
 
