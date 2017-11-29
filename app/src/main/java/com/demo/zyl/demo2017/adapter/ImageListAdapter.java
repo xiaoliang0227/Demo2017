@@ -9,7 +9,6 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.demo.zyl.demo2017.CommonUtil;
 import com.demo.zyl.demo2017.R;
 import com.demo.zyl.demo2017.image.FullCache;
 import com.demo.zyl.demo2017.image.ImageCache;
@@ -39,7 +38,7 @@ public class ImageListAdapter extends BaseAdapter {
     private void initImageCache() {
         imageLoader = new ImageLoader(context);
         String cacheDir = Environment.getExternalStorageDirectory() + "/demo2017/image/";
-        ImageCache cache = new FullCache(cacheDir);
+        ImageCache cache = new FullCache(cacheDir, 50 * 1024 * 1024);
         imageLoader.setmImageCache(cache);
     }
 
@@ -73,7 +72,7 @@ public class ImageListAdapter extends BaseAdapter {
         holder.mImage.setImageBitmap(null);
         holder.mLabel.setText(String.format("测试图片%d", position));
         String url = imageUrlList.get(position);
-        imageLoader.display(url, CommonUtil.getImageNameByUrl(url), holder.mImage);
+        imageLoader.display(url, holder.mImage);
         return convertView;
     }
 

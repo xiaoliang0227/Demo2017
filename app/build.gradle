@@ -40,4 +40,6 @@ dependencies {
     compile ("com.github.xiaoliang0227:DynamicDialog:1.0.3") {
         exclude group:'com.android.support'
     }
+    //DiskLruCache
+    compile 'com.jakewharton:disklrucache:2.0.2'
 }

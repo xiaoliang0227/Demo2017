@@ -15,19 +15,19 @@ public class MemoryCache implements ImageCache {
 
     public MemoryCache() {
         // 初始化LRU缓存
-        initLRUCache();
+        initLruCache();
     }
 
-    private void initLRUCache() {
+    private void initLruCache() {
         // 计算可使用的最大内存
         final int maxMemory = (int) (Runtime.getRuntime().maxMemory() / 1024);
         // 取四分之一的可用内存作为缓存空间
-        final int cacheSize = maxMemory / 4;
+        final int cacheSize = maxMemory / 8;
         mMemoryCache = new LruCache<String, Bitmap>(cacheSize) {
 
             @Override
             protected int sizeOf(String key, Bitmap bitmap) {
-                return bitmap.getRowBytes() * bitmap.getHeight() / 1024;
+                return bitmap.getByteCount() / 1024;
             }
         };
     }
@@ -39,8 +39,11 @@ public class MemoryCache implements ImageCache {
      * @param bitmap
      */
     @Override
-    public synchronized void put(String url, Bitmap bitmap) {
-        mMemoryCache.put(url, bitmap);
+    public void put(String url, Bitmap bitmap) {
+        String key = ImageUtil.hashKeyFromUrl(url);
+        if (get(key) == null) {
+            mMemoryCache.put(key, bitmap);
+        }
     }
 
     /**
@@ -51,6 +54,6 @@ public class MemoryCache implements ImageCache {
      */
     @Override
     public Bitmap get(String url) {
-        return mMemoryCache.get(url);
+        return mMemoryCache.get(ImageUtil.hashKeyFromUrl(url));
     }
 }

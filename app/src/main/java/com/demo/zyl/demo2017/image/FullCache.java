@@ -1,7 +1,6 @@
 package com.demo.zyl.demo2017.image;
 
 import android.graphics.Bitmap;
-import android.util.Log;
 
 /**
  * Created by zhaoyongliang on 2017/10/24.
@@ -17,14 +16,16 @@ public class FullCache implements ImageCache {
 
     private String cacheDir;
 
+    private int maxCacheSize;
+
     private MemoryCache mMemoryCache;
 
     private DiskCache mDiskCache;
 
-    public FullCache(String cacheDir) {
+    public FullCache(String cacheDir, int maxCacheSize) {
         this.cacheDir = cacheDir;
         mMemoryCache = new MemoryCache();
-        mDiskCache = new DiskCache(cacheDir);
+        mDiskCache = new DiskCache(cacheDir, maxCacheSize);
     }
 
     /**
@@ -54,13 +55,6 @@ public class FullCache implements ImageCache {
         Bitmap bitmap = mMemoryCache.get(url);
         if (null == bitmap) {
             bitmap = mDiskCache.get(url);
-        }
-        if (bitmap != null) {
-            Log.e(TAG, "cached bitmap size, width:" + bitmap.getWidth() + ",height:" + bitmap.getHeight());
-        }
-        if (bitmap != null && (bitmap.getWidth() < 20 || bitmap.getHeight() < 20)) {
-            Log.e(TAG, "cached bitmap size error will be reset!!");
-            bitmap = null;
         }
         return bitmap;
     }
