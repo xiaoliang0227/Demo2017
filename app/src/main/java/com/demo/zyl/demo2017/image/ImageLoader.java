@@ -9,6 +9,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.widget.ImageView;
 
+import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
@@ -62,7 +63,7 @@ public class ImageLoader {
                 Bitmap bitmap = mImageCache.get(url);
                 if (null != bitmap) {
                     Log.e(TAG, "cached url:" + url);
-                    showImage(imageView, bitmap);
+                    showImage(imageView, bitmap, url);
                     return;
                 }
                 // 没有缓存图片，从线程池中下载图片
@@ -79,17 +80,17 @@ public class ImageLoader {
                 Bitmap bitmap = downloadImage(url);
                 Log.e(TAG, "---downloaded url:" + url);
                 if (null == bitmap) return;
-                refreshImageView(imageView, bitmap);
+                refreshImageView(imageView, bitmap, url);
                 mImageCache.put(url, bitmap);
             }
         });
     }
 
-    private void refreshImageView(final ImageView imageView, final Bitmap bitmap) {
+    private void refreshImageView(final ImageView imageView, final Bitmap bitmap, final String url) {
         handler.post(new Runnable() {
             @Override
             public void run() {
-                showImage(imageView, bitmap);
+                showImage(imageView, bitmap, url);
             }
         });
     }
@@ -101,7 +102,7 @@ public class ImageLoader {
             URL uri = new URL(url);
             HttpURLConnection conn = (HttpURLConnection) uri.openConnection();
             conn.setDoInput(true);
-            InputStream in = conn.getInputStream();
+            InputStream in = new BufferedInputStream(conn.getInputStream());
             bitmap = BitmapFactory.decodeStream(in);
             in.close();
         } catch (MalformedURLException e) {
@@ -112,11 +113,13 @@ public class ImageLoader {
         return bitmap;
     }
 
-    private void showImage(final ImageView imageView, final Bitmap bitmap) {
+    private void showImage(final ImageView imageView, final Bitmap bitmap, final String url) {
         handler.post(new Runnable() {
             @Override
             public void run() {
-                imageView.setImageDrawable(new BitmapDrawable(context.getResources(), bitmap));
+                if (imageView.getTag().toString().equals(ImageUtil.hashKeyFromUrl(url))) {
+                    imageView.setImageDrawable(new BitmapDrawable(context.getResources(), bitmap));
+                }
             }
         });
     }

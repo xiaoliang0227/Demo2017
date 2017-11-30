@@ -13,6 +13,7 @@ import com.demo.zyl.demo2017.R;
 import com.demo.zyl.demo2017.image.FullCache;
 import com.demo.zyl.demo2017.image.ImageCache;
 import com.demo.zyl.demo2017.image.ImageLoader;
+import com.demo.zyl.demo2017.image.ImageUtil;
 
 import java.util.List;
 
@@ -69,9 +70,11 @@ public class ImageListAdapter extends BaseAdapter {
         } else {
             holder = (ViewHolder) convertView.getTag();
         }
-        holder.mImage.setImageBitmap(null);
+        holder.mImage.setImageResource(R.mipmap.ic_launcher);
+
         holder.mLabel.setText(String.format("测试图片%d", position));
         String url = imageUrlList.get(position);
+        holder.mImage.setTag(ImageUtil.hashKeyFromUrl(url));
         imageLoader.display(url, holder.mImage);
         return convertView;
     }
