@@ -36,15 +36,20 @@ public class DiskCache implements ImageCache {
     }
 
     private void initDiskLruCache() {
-        try {
-            File cacheFolder = new File(cacheDir);
-            if (!cacheFolder.exists()) {
-                cacheFolder.mkdirs();
+        ImageUtil.threadPool.execute(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    File cacheFolder = new File(cacheDir);
+                    if (!cacheFolder.exists()) {
+                        cacheFolder.mkdirs();
+                    }
+                    diskLruCache = DiskLruCache.open(cacheFolder, 1, 1, maxCacheSize);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
-            diskLruCache = DiskLruCache.open(cacheFolder, 1, 1, maxCacheSize);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        });
     }
 
 
