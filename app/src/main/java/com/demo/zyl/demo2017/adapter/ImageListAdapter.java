@@ -14,6 +14,7 @@ import com.demo.zyl.demo2017.image.FullCache;
 import com.demo.zyl.demo2017.image.ImageCache;
 import com.demo.zyl.demo2017.image.ImageLoader;
 import com.demo.zyl.demo2017.image.ImageUtil;
+import com.demo.zyl.demo2017.image.bean.NewsBean;
 
 import java.util.List;
 
@@ -27,11 +28,11 @@ public class ImageListAdapter extends BaseAdapter {
 
     private Context context;
 
-    private List<String> imageUrlList;
+    private List<NewsBean> newsList;
 
-    public ImageListAdapter(Context context, List<String> imageUrlList) {
+    public ImageListAdapter(Context context, List<NewsBean> newsList) {
         this.context = context;
-        this.imageUrlList = imageUrlList;
+        this.newsList = newsList;
         // 设置图片缓存
         initImageCache();
     }
@@ -45,12 +46,12 @@ public class ImageListAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return null == imageUrlList ? 0 : imageUrlList.size();
+        return newsList.size();
     }
 
     @Override
     public Object getItem(int position) {
-        return null == imageUrlList ? null : imageUrlList.get(position);
+        return newsList.get(position);
     }
 
     @Override
@@ -65,22 +66,26 @@ public class ImageListAdapter extends BaseAdapter {
             holder = new ViewHolder();
             convertView = LayoutInflater.from(context).inflate(R.layout.image_item, parent, false);
             holder.mImage = (ImageView) convertView.findViewById(R.id.m_image);
-            holder.mLabel = (TextView) convertView.findViewById(R.id.m_label);
+            holder.title = (TextView) convertView.findViewById(R.id.m_title);
+            holder.subtitle = (TextView) convertView.findViewById(R.id.m_subtitle);
             convertView.setTag(holder);
         } else {
             holder = (ViewHolder) convertView.getTag();
         }
         holder.mImage.setImageResource(R.mipmap.ic_launcher);
 
-        holder.mLabel.setText(String.format("测试图片%d", position));
-        String url = imageUrlList.get(position);
-        holder.mImage.setTag(ImageUtil.hashKeyFromUrl(url));
-        imageLoader.display(url, holder.mImage);
+        NewsBean item = newsList.get(position);
+
+        holder.title.setText(item.getName());
+        holder.subtitle.setText(item.getDescription());
+        holder.mImage.setTag(ImageUtil.hashKeyFromUrl(item.getPicSmall()));
+        imageLoader.display(item.getPicSmall(), holder.mImage);
         return convertView;
     }
 
     class ViewHolder {
         ImageView mImage;
-        TextView mLabel;
+        TextView title;
+        TextView subtitle;
     }
 }

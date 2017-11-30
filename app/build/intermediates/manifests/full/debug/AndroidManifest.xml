@@ -17,7 +17,12 @@
         android:name="android.support.VERSION"
         android:value="25.3.1" />
 
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
     <application
+        android:name="com.demo.zyl.demo2017.DemoApplication"
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@mipmap/app_icon"

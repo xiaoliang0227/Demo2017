@@ -36,10 +36,18 @@ dependencies {
     compile ('com.github.xiaoliang0227:TriangleView:1.0.2') {
         exclude group:'com.android.support'
     }
+
     // DynamicDialog
     compile ("com.github.xiaoliang0227:DynamicDialog:1.0.3") {
         exclude group:'com.android.support'
     }
-    //DiskLruCache
+
+    // DiskLruCache
     compile 'com.jakewharton:disklrucache:2.0.2'
+
+    // DailyToolsUnit
+    compile ("com.github.xiaoliang0227:DailyToolsUnit:1.0.3") {
+        exclude group:'com.android.support'
+    }
+
 }

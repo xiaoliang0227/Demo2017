@@ -4,19 +4,39 @@
     android:layout_height="80dp"
     android:orientation="horizontal"
     android:paddingLeft="10dp"
+    android:gravity="center_vertical"
     android:paddingRight="10dp">
 
     <ImageView
         android:id="@+id/m_image"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:src="@mipmap/ic_launcher_round" />
 
-    <TextView
-        android:id="@+id/m_label"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_marginLeft="20dp"
         android:gravity="center_vertical"
-        android:text="image label" />
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/m_title"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="title" />
+
+        <TextView
+            android:id="@+id/m_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="12sp"
+            android:textColor="#cccccc"
+            android:text="subtitle" />
+    </LinearLayout>
+
 </LinearLayout>

@@ -12,6 +12,7 @@
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@mipmap/app_icon"
+        android:name=".DemoApplication"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/app_icon"
         android:supportsRtl="true"

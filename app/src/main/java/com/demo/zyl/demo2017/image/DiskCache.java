@@ -72,6 +72,7 @@ public class DiskCache implements ImageCache {
                             editor.abort();
                         }
                     }
+                    diskLruCache.flush();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
