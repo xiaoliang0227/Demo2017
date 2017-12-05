@@ -9,6 +9,9 @@ import com.zyl.tools.dailytoolsunit.util.MessageCenter;
 import com.zyl.widget.dynamicdialog.DynamicDialog;
 import com.zyl.widget.dynamicdialog.DynamicDialogType;
 
+import java.io.Closeable;
+import java.io.IOException;
+
 /**
  * Created by zhaoyongliang on 2017/11/30.
  */
@@ -42,6 +45,16 @@ public class CommonUtil {
 
     public static void hideDialog() {
         ViewTools.getInstance().dismissDialog(DemoApplication.globalDailog);
+    }
+
+    public static void closeIO(Closeable closeable) {
+        if (closeable != null) {
+            try {
+                closeable.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
 }

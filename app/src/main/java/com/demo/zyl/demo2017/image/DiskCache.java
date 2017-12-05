@@ -3,6 +3,7 @@ package com.demo.zyl.demo2017.image;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
+import com.demo.zyl.demo2017.util.CommonUtil;
 import com.jakewharton.disklrucache.DiskLruCache;
 
 import java.io.File;
@@ -76,6 +77,7 @@ public class DiskCache implements ImageCache {
                         } else {
                             editor.abort();
                         }
+                        CommonUtil.closeIO(outputStream);
                     }
                     diskLruCache.flush();
                 } catch (IOException e) {
