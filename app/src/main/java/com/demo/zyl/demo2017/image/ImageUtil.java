@@ -1,6 +1,10 @@
 package com.demo.zyl.demo2017.image;
 
+import android.content.Context;
 import android.graphics.BitmapFactory;
+import android.text.TextUtils;
+
+import com.demo.zyl.demo2017.image.config.ImageLoaderConfig;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -112,5 +116,16 @@ public class ImageUtil {
         }
 
         return inSampleSize;
+    }
+
+    public static void initImageLoader(Context context, String cacheFolder, int maxCacheSize) {
+        ImageCache cache = (!TextUtils.isEmpty(cacheFolder) && maxCacheSize > 0) ?
+                new FullCache(cacheFolder, maxCacheSize) : new MemoryCache();
+        ImageLoaderConfig config = new ImageLoaderConfig.Builder()
+                .setMaxCacheSize(maxCacheSize)
+                .setCacheFolder(cacheFolder)
+                .setmImageCache(cache)
+                .create();
+        ImageLoader.getInstance().init(context, config);
     }
 }

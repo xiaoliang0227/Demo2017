@@ -46,7 +46,7 @@ dependencies {
     compile 'com.jakewharton:disklrucache:2.0.2'
 
     // DailyToolsUnit
-    compile ("com.github.xiaoliang0227:DailyToolsUnit:1.0.3") {
+    compile ("com.github.xiaoliang0227:DailyToolsUnit:1.0.4") {
         exclude group:'com.android.support'
     }
 

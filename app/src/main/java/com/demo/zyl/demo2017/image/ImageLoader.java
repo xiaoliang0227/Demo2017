@@ -5,9 +5,9 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Handler;
-import android.text.TextUtils;
-import android.util.Log;
 import android.widget.ImageView;
+
+import com.demo.zyl.demo2017.image.config.ImageLoaderConfig;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;
@@ -24,37 +24,30 @@ public class ImageLoader {
 
     private static final String TAG = "ImageLoader";
 
-    private int maxCacheSize;
-
-    private String cacheFolder;
-
-    private Context context;
-
-    public ImageLoader(Context context) {
-        this(context, null, 0);
-    }
-
-    public ImageLoader(Context context, String cacheFolder, int maxCacheSize) {
-        this.context = context;
-        this.maxCacheSize = maxCacheSize;
-        this.cacheFolder = cacheFolder;
-
-        if (!TextUtils.isEmpty(this.cacheFolder) && this.maxCacheSize > 0) {
-            setmImageCache(new FullCache(this.cacheFolder, this.maxCacheSize));
-        }
-    }
-
     // 通知主线程更新图片
     private Handler handler = new Handler();
 
     // 默认内存缓存图片
     private ImageCache mImageCache = new MemoryCache();
 
-    // 注入缓存方式
+    private ImageLoader() {
 
-    public void setmImageCache(ImageCache mImageCache) {
-        this.mImageCache = mImageCache;
     }
+
+    private static class SingletonHolder {
+        private static final ImageLoader mInstance = new ImageLoader();
+    }
+
+    public static ImageLoader getInstance() {
+        return SingletonHolder.mInstance;
+    }
+
+    public void init(Context context, ImageLoaderConfig config) {
+        this.context = context;
+        this.mImageCache = config.mImageCache;
+    }
+
+    private Context context;
 
     public void display(final String url, final ImageView imageView) {
         ImageUtil.threadPool.execute(new Runnable() {
@@ -62,7 +55,6 @@ public class ImageLoader {
             public void run() {
                 Bitmap bitmap = mImageCache.get(url);
                 if (null != bitmap) {
-                    Log.e(TAG, "cached url:" + url);
                     showImage(imageView, bitmap, url);
                     return;
                 }
@@ -78,7 +70,6 @@ public class ImageLoader {
             @Override
             public void run() {
                 Bitmap bitmap = downloadImage(url);
-                Log.e(TAG, "---downloaded url:" + url);
                 if (null == bitmap) return;
                 refreshImageView(imageView, bitmap, url);
                 mImageCache.put(url, bitmap);
@@ -96,7 +87,6 @@ public class ImageLoader {
     }
 
     private Bitmap downloadImage(String url) {
-        Log.e(TAG, "download url:" + url);
         Bitmap bitmap = null;
         try {
             URL uri = new URL(url);

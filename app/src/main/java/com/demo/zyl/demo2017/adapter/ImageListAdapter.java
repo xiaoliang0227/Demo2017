@@ -10,8 +10,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.demo.zyl.demo2017.R;
-import com.demo.zyl.demo2017.image.FullCache;
-import com.demo.zyl.demo2017.image.ImageCache;
 import com.demo.zyl.demo2017.image.ImageLoader;
 import com.demo.zyl.demo2017.image.ImageUtil;
 import com.demo.zyl.demo2017.image.bean.NewsBean;
@@ -23,8 +21,6 @@ import java.util.List;
  */
 
 public class ImageListAdapter extends BaseAdapter {
-
-    private ImageLoader imageLoader;
 
     private Context context;
 
@@ -38,10 +34,9 @@ public class ImageListAdapter extends BaseAdapter {
     }
 
     private void initImageCache() {
-        imageLoader = new ImageLoader(context);
         String cacheDir = Environment.getExternalStorageDirectory() + "/demo2017/image/";
-        ImageCache cache = new FullCache(cacheDir, 50 * 1024 * 1024);
-        imageLoader.setmImageCache(cache);
+        int cacheSize = 50 * 1024 * 1024;
+        ImageUtil.initImageLoader(context, cacheDir, cacheSize);
     }
 
     @Override
@@ -79,7 +74,7 @@ public class ImageListAdapter extends BaseAdapter {
         holder.title.setText(item.getName());
         holder.subtitle.setText(item.getDescription());
         holder.mImage.setTag(ImageUtil.hashKeyFromUrl(item.getPicSmall()));
-        imageLoader.display(item.getPicSmall(), holder.mImage);
+        ImageLoader.getInstance().display(item.getPicSmall(), holder.mImage);
         return convertView;
     }
 
