@@ -56,4 +56,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DynamicDialogTestActivity.class);
         startActivity(intent);
     }
+
+    public void collapsingToolbarTestClicked(View view) {
+        Intent intent = new Intent(this, CollapsingToolbarActivity.class);
+        startActivity(intent);
+    }
 }

@@ -26,6 +26,14 @@ public class CommonUtil {
         delayDismissDialog();
     }
 
+    public static void showNormal(Context context, String msg) {
+        hideDialog();
+        DynamicDialog dialog = new DynamicDialog(context, R.style.custom_dialog, DynamicDialogType.NORMAL, msg);
+        DemoApplication.globalDailog = dialog;
+        DemoApplication.globalDailog.show();
+        delayDismissDialog();
+    }
+
     public static void showError(Context context, String msg) {
         hideDialog();
         DynamicDialog dialog = new DynamicDialog(context, R.style.custom_dialog, DynamicDialogType.ERROR, msg);

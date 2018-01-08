@@ -77,6 +77,29 @@
             android:label="Dynamic Dialog Test"
             android:parentActivityName="com.demo.zyl.demo2017.MainActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name="com.demo.zyl.demo2017.CollapsingToolbarActivity"
+            android:label="可折叠工具栏"
+            android:parentActivityName="com.demo.zyl.demo2017.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.demo.zyl.demo2017.CollapsingParallaxModeActivity"
+            android:label="Parallax模式"
+            android:parentActivityName="com.demo.zyl.demo2017.CollapsingToolbarActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.demo.zyl.demo2017.CollapsingPinModeActivity"
+            android:label="Pin模式"
+            android:parentActivityName="com.demo.zyl.demo2017.CollapsingToolbarActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.demo.zyl.demo2017.CollapsingNoneModeActivity"
+            android:label="None模式"
+            android:parentActivityName="com.demo.zyl.demo2017.CollapsingToolbarActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <!-- service -->
         <service android:name="com.demo.zyl.demo2017.service.socket.TCPServerService" />

@@ -61,6 +61,13 @@
             android:onClick="dynamicDialogTestClicked"
             android:text="Dynamic Dialog Test"
             android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="collapsingToolbarTestClicked"
+            android:text="可折叠工具栏"
+            android:textAllCaps="false" />
     </LinearLayout>
 
 </ScrollView>
