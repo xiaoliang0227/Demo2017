@@ -3597,11 +3597,12 @@ public final class R {
   }
   public static final class mipmap {
     public static final int app_icon=0x7f0d0000;
-    public static final int dymamic_dialog_error=0x7f0d0001;
-    public static final int dynamic_dialog_success=0x7f0d0002;
-    public static final int dynamic_dialog_warning=0x7f0d0003;
-    public static final int ic_launcher=0x7f0d0004;
-    public static final int ic_launcher_round=0x7f0d0005;
+    public static final int bg_add_new_shop=0x7f0d0001;
+    public static final int dymamic_dialog_error=0x7f0d0002;
+    public static final int dynamic_dialog_success=0x7f0d0003;
+    public static final int dynamic_dialog_warning=0x7f0d0004;
+    public static final int ic_launcher=0x7f0d0005;
+    public static final int ic_launcher_round=0x7f0d0006;
   }
   public static final class string {
     public static final int abc_action_bar_home_description=0x7f0e0000;

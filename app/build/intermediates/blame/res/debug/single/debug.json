@@ -24,12 +24,12 @@
         "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_test2.xml"
     },
     {
-        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
-        "source": "/Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08e9969e86fa35a2a53439616cd7a4e7/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
         "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/layout_select_dialog_multichoice_material.xml.flat",
         "source": "/Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08e9969e86fa35a2a53439616cd7a4e7/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "/Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08e9969e86fa35a2a53439616cd7a4e7/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/layout_select_dialog_item_material.xml.flat",
@@ -48,12 +48,12 @@
         "source": "/Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08e9969e86fa35a2a53439616cd7a4e7/res/layout-v16/notification_template_custom_big.xml"
     },
     {
-        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/color-v23_abc_tint_seek_thumb.xml.flat",
-        "source": "/Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08e9969e86fa35a2a53439616cd7a4e7/res/color-v23/abc_tint_seek_thumb.xml"
-    },
-    {
         "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "/Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08e9969e86fa35a2a53439616cd7a4e7/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/color-v23_abc_tint_seek_thumb.xml.flat",
+        "source": "/Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08e9969e86fa35a2a53439616cd7a4e7/res/color-v23/abc_tint_seek_thumb.xml"
     },
     {
         "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
@@ -66,6 +66,10 @@
     {
         "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "/Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08e9969e86fa35a2a53439616cd7a4e7/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/mipmap-xhdpi_bg_add_new_shop.png.flat",
+        "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/res/mipmap-xhdpi/bg_add_new_shop.png"
     },
     {
         "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_menu_manage.png.flat",
@@ -224,12 +228,12 @@
         "source": "/Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08e9969e86fa35a2a53439616cd7a4e7/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "/Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08e9969e86fa35a2a53439616cd7a4e7/res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png"
-    },
-    {
         "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/layout-v11_notification_template_big_media_custom.xml.flat",
         "source": "/Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08e9969e86fa35a2a53439616cd7a4e7/res/layout-v11/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "/Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08e9969e86fa35a2a53439616cd7a4e7/res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-v21_abc_btn_colored_material.xml.flat",
@@ -296,20 +300,20 @@
         "source": "/Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/c79af1416365f27e515f25908e7200e1/res/color/design_tint_password_toggle.xml"
     },
     {
-        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
-        "source": "/Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08e9969e86fa35a2a53439616cd7a4e7/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
         "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_menu_camera.png.flat",
         "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_menu_camera.png"
     },
     {
-        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
-        "source": "/Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08e9969e86fa35a2a53439616cd7a4e7/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "/Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08e9969e86fa35a2a53439616cd7a4e7/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/layout_abc_search_dropdown_item_icons_2line.xml.flat",
         "source": "/Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08e9969e86fa35a2a53439616cd7a4e7/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "/Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08e9969e86fa35a2a53439616cd7a4e7/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_test.png.flat",
@@ -340,12 +344,12 @@
         "source": "/Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08e9969e86fa35a2a53439616cd7a4e7/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
-        "source": "/Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08e9969e86fa35a2a53439616cd7a4e7/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
         "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "/Users/zhaoyongliang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/08e9969e86fa35a2a53439616cd7a4e7/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "/Users/zhaoyongliang/workspace/myandroid/Demo2017/app/build/intermediates/res/merged/debug/layout_act_collection_demo.xml.flat",
