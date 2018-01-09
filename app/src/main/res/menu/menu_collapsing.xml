@@ -7,6 +7,9 @@
         android:id="@+id/scroll_enterAlways"
         android:title="scroll|enterAlways" />
     <item
+        android:id="@+id/scroll_enterAlways_enterAlwaysCollapsed"
+        android:title="scroll|enterAlways|enterAlwaysCollapsed" />
+    <item
         android:id="@+id/scroll_exitUntilCollapsed"
         android:title="scroll|exitUntilCollapsed" />
     <item

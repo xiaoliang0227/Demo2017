@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CollapsingToolbarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    app:contentScrim="?attr/colorPrimary"
+    app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed"
+    app:toolbarId="@+id/toolbar">
+
+    <ImageView
+        android:id="@+id/m_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/bg_add_new_shop" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/ToolBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorAccent"
+        app:layout_collapseMode="none"
+        app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+</android.support.design.widget.CollapsingToolbarLayout>

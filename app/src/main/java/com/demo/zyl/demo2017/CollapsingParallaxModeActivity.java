@@ -79,6 +79,9 @@ public class CollapsingParallaxModeActivity extends AppCompatActivity {
             case ScrollFlag.FLAG_SCROLL_ENTERALWAYS:
                 setScrollFlag2ScrollEnterAlways();
                 break;
+            case ScrollFlag.FLAG_SCROLL_ENTERALWAYS_ENTERALWAYSCOLLAPSED:
+                setScrollFlag2ScrollEnterAlwaysEnterAlwaysCollapsed();
+                break;
             case ScrollFlag.FLAG_SCROLL_EXITUNTILCOLLAPSED:
                 setScrollFlag2ScrollExitUntilCollapsed();
                 break;
@@ -89,6 +92,15 @@ public class CollapsingParallaxModeActivity extends AppCompatActivity {
                 setScrollFlag2ScrollSnap();
                 break;
         }
+    }
+
+    private void setScrollFlag2ScrollEnterAlwaysEnterAlwaysCollapsed() {
+        if (contentContainer.getChildCount() != 0) {
+            contentContainer.removeAllViews();
+        }
+        View view = LayoutInflater.from(this).inflate(R.layout.collapse_mode_parallax_scroll_flag_scroll_enteralways_enteralwayscollapsed, contentContainer, false);
+        contentContainer.addView(view);
+        setToolbar();
     }
 
     private void setScrollFlag2Scroll() {
@@ -160,6 +172,9 @@ public class CollapsingParallaxModeActivity extends AppCompatActivity {
                 return true;
             case R.id.scroll_enterAlways:
                 restart(ScrollFlag.FLAG_SCROLL_ENTERALWAYS);
+                return true;
+            case R.id.scroll_enterAlways_enterAlwaysCollapsed:
+                restart(ScrollFlag.FLAG_SCROLL_ENTERALWAYS_ENTERALWAYSCOLLAPSED);
                 return true;
             case R.id.scroll_exitUntilCollapsed:
                 restart(ScrollFlag.FLAG_SCROLL_EXITUNTILCOLLAPSED);
