@@ -11,3 +11,4 @@
 - **网络加载图片**
 - **Triangle View Test（三角角标）**
 - **Dynamic Dialog Test（多态窗体）**
+- **可折叠工具栏**
