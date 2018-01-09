@@ -1,9 +1,11 @@
 package com.demo.zyl.demo2017;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.AppBarLayout;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -15,6 +17,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.demo.zyl.demo2017.adapter.TestAdapter;
+import com.demo.zyl.demo2017.util.CommonUtil;
 import com.demo.zyl.demo2017.util.LogUtil;
 import com.demo.zyl.demo2017.util.ScrollFlag;
 
@@ -29,6 +32,8 @@ public class CollapsingNoneModeActivity extends AppCompatActivity {
 
     private static final String TAG = "CollapsingNoneModeActivity";
 
+    private Context context;
+
     private RecyclerView mRecyclerView;
 
     private TestAdapter mTestAdapter;
@@ -36,6 +41,8 @@ public class CollapsingNoneModeActivity extends AppCompatActivity {
     private Toolbar toolbar;
 
     private AppBarLayout contentContainer;
+
+    private FloatingActionButton mFloat;
 
     private int scrollFlag = ScrollFlag.FLAG_SCROLL;
 
@@ -48,7 +55,17 @@ public class CollapsingNoneModeActivity extends AppCompatActivity {
 
     private void init() {
         initField();
+        initEvent();
         initData();
+    }
+
+    private void initEvent() {
+        mFloat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                CommonUtil.showNormal(context, "逗你玩！！！");
+            }
+        });
     }
 
     private void initData() {
@@ -62,8 +79,10 @@ public class CollapsingNoneModeActivity extends AppCompatActivity {
     }
 
     private void initField() {
+        context = this;
         mRecyclerView = (RecyclerView) findViewById(R.id.m_list);
         contentContainer = (AppBarLayout) findViewById(R.id.app_bar);
+        mFloat = (FloatingActionButton) findViewById(R.id.m_float);
 
         initToolbar();
     }
